@@ -11,20 +11,53 @@
         <div class="photo">
        <img src="photo.jpg" align="left" height=300px weight=300px>
         </div>
-        <p color:white>
+        <div class="name">
+        <font color="white">
           <h2 color:white>Nicolas Prince</h2>
           <h3>Ecole centrale d'Electronique</h3>
           <h3>BAC +3</h3>
-        </p>
+        </font>
+        </div>
      </header>
      <nav class="topnav">
   <a href="https://www.facebook.com/nicolas.prince.90">Facebook</a>
   <a href="https://www.linkedin.com/in/nicolas-prince-4481ba152/">Linkedin</a>
   <a href="https://www.instagram.com/?hl=fr">Instagram</a>
+  <a href="">Passions</a>
 </nav>
+
+  <section>
+    <div class="hobbies">
+      <img src="photo.jpg" height=250px width=250px border-radius:50%>
+    </div>
+    <div class="hobbies">
+      <img src="photo.jpg" height=250px width=250px>
+    </div>
+    <div class="hobbies">
+      <img src="photo.jpg" height=250px width=250px>
+    </div>
+
+  </section>
 
   </body>
   <footer>
-  <p>oui</p>
+    <form action="/ma-page-de-traitement" method="post">
+      <h1> Formulaire de contact :</h1>
+      <div>
+          <label for="name">Nom :</label>
+          <input type="text" id="name" name="user_name">
+      </div>
+      <div>
+          <label for="mail">e-mail :</label>
+          <input type="email" id="mail" name="user_mail">
+      </div>
+      <div>
+          <label for="msg">Message :</label>
+          <textarea id="msg" name="user_message"></textarea>
+      </div>
+      <div class="button">
+        <button type="submit">Envoyer le message</button>
+    </div>
+  </form>
 </footer>
 </html>
