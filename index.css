@@ -10,16 +10,19 @@ header{
 
 }
 
+
 .photo{
   margin-left: 200px ;
   padding-top: 75px ;
   padding-bottom: 75px ;
   margin-right: 100px ;
+  border-radius: 50%;
 }
 
 .name{
 
-  padding-left: 100px ;
+  padding-left: 160px ;
+  padding-top: 40px;
 
 }
 
@@ -46,7 +49,7 @@ p{
   text-decoration: none;
   font-size: 17px;
   height: 120px;
-  width: 320px;
+  width: 460px;
 }
 
 /* Change the color of links on hover */
@@ -61,20 +64,28 @@ p{
   color: white;
 }
 
+
+
+section{
+  height: 300px;
+  margin-bottom: 100px;
+  margin-left: 175px;
+  margin-top: 10px;
+}
+
+.forma{
+  border-radius: 5%;
+}
+
 .hobbies{
-  display: block;
+
  height: 250px;
  width: 250px;
- margin-left: 175px;
+ margin-right: 175px;
  float: left;
  border-radius: 50%;
 
 }
-
-section{
-  height: 300px;
-}
-
 footer{
   background-color: #476A6F;
   height: auto;
